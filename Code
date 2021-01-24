@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Create An Account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: white;
+	font-family: sans-serif;
+}
+.create_an_account {
+	width: 300px;
+	height: 380px;
+	box-shadow: 0px 0px 20px blue;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 20px;
+}
+.create_an_account h2 {
+	margin: 10px 0px 20px;
+	color: blue;
+}
+.inputs {	
+	position: relative;
+	top: -20px;
+}
+input {
+	margin: 20px 0px 20px 0px;
+	width: 80%;
+	height: 10%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ccc;
+	color: grey;
+	padding: 10px 6px;
+}
+.submit {
+	background: blue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.create_an_account p {
+	position: relative;
+	top: -25;
+	color: grey;
+	font-size: 10px;
+}
+.create_an_account a {
+	text-decoration: none;
+	color: blue;
+}
+.create_an_account a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="create_an_account">
+<h2>Create An Account</h2>
+<div class="inputs">
+<input type="text" placeholder="Username">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<input type="submit" class="submit" value="Create">
+</div>
+<p>Already have an account? <a href="Sign%20In.html">Log In</a></p>
+</div>
+</body>
+</html>
